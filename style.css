@@ -1,0 +1,56 @@
+header {
+    text-align: center;
+    margin-top: 20 auto;
+    font-size: 75px;
+    font-family: 'Raleway', sans-serif;
+    color: #FFFFFF;
+}
+
+body {
+    background-image: url("picture.jpg");
+    text-transform: capitalize;
+    font-family: 'Raleway', sans-serif;
+}
+
+.popi {
+    display: flex;
+    color: black;
+    font-size: 20px;
+    padding: 20px;
+    line-height: 32px;
+}
+
+#person_1 {
+    margin-right: 10%;
+    width: 30%;
+    /* border: 15px white; */
+    background-color: white;
+    text-align: center;
+    margin-left: 15%;
+    /* 150 right and 100 middle */
+    padding-top: 20px;
+    border-radius: 25px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    margin-top: 0px;
+}
+
+#person_2 {
+    width: 30%;
+    background-color: white;
+    text-align: center;
+    margin-right: 15%;
+    padding-top: 20px;
+    border-radius: 25px;
+}
+img{
+    border-radius: 50%;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 30px;
+}
