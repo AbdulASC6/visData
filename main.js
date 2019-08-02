@@ -1,5 +1,5 @@
 // person 1
-let rand = Math.floor(Math.random() * 12 + 1);
+let rand = Math.floor(Math.random() * 1000 + 1);
 for(let i = 0; i < rand; i++){
     document.getElementById('name_1').innerHTML = data.results[i].name.first;
     document.getElementById('gen_1').innerHTML = data.results[i].gender;
@@ -16,7 +16,7 @@ for(let i = 0; i < rand; i++){
 
 
 // person 2
-let rand_2 = Math.floor(Math.random() * 12 + 1);
+let rand_2 = Math.floor(Math.random() * 1000 + 1);
 for(let i = 0; i < rand_2; i++){
     document.getElementById('name_2').innerHTML = data.results[i].name.first;
     document.getElementById('gen_2').innerHTML = data.results[i].gender;
